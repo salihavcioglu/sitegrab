@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+data/tmp
+data/zips
+.git
+.gitignore
+.env
+*.md
+LICENSE

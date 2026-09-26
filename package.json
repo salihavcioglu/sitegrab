@@ -1,0 +1,26 @@
+{
+  "name": "sitegrab",
+  "version": "1.0.0",
+  "description": "Download any website with all its assets as a ZIP for offline viewing.",
+  "type": "module",
+  "main": "src/core/job.js",
+  "bin": {
+    "sitegrab": "bin/sitegrab.js"
+  },
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "node --watch src/server/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "cheerio": "1.0.0",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "author": "Salih Avcioglu <s.avcioglu23@gmail.com>"
+}
